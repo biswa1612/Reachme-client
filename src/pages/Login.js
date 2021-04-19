@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Button, Form, Image } from 'semantic-ui-react';
 import { useMutation } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
-import login from '../images/login.svg';
+import forms from '../images/forms.svg';
 
 import { AuthContext } from '../context/auth';
 import { useForm } from '../util/hooks';
@@ -35,8 +35,9 @@ function Login(props) {
         <div className="form-container">
             <h1>Login</h1>
             <Image
-             src={login}
-             alt="login"
+             src={forms}
+             alt="Form"
+             size="medium"
             />
             <Form onSubmit={onSubmit} noValidate className={loading ? 'loading' : ''}>
                 <Form.Input
