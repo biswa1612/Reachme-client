@@ -1,0 +1,69 @@
+.form-container{
+    width: 400px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.form-container h1{
+   text-align: center;
+   color: #7209b7;
+   font-family: 'Kaushan Script', cursive;
+}
+.recent{
+    font-family: 'Kaushan Script', cursive;
+    color: #7209b7;
+}
+.ui .menu{
+    font-family: 'Kaushan Script', cursive;
+}
+body{
+    background-image: url("https://image.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg");
+}
+.ui.medium.image{
+    margin: auto;
+}
+.ui.message .header{
+    color: #f72585;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+}
+.ui.message p{
+    font-weight: bold;
+}
+.ui.form .field{
+    width: 85%;
+    margin: auto;
+    
+}
+.ui.card .content .description{
+    white-space: pre-wrap;
+}
+.ui.purple.button{
+    margin-left: 45%;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ui.primary.button{
+    margin-top: 10px;
+    margin-left: 8%;
+}
+.ui.error.message.postform {
+    margin: auto;
+    width: 80%;
+}
+.ui.teal.button:focus, .ui.teal.buttons .button:focus{
+    background-color: #00b5ad;
+}
+@media screen and (max-width: 700px) {
+    .ui.purple.button{
+        margin-left: 40%;
+        
+    }
+    .ui.form .field{
+        width: 90%;
+        margin: auto;
+    }
+    .ui.form textarea {
+        width: 990px;
+    }
+}

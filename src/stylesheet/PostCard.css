@@ -1,0 +1,15 @@
+.row h1{
+    margin:auto;
+    margin-top: 10px;
+}
+.ui .card{
+    width: 80%;
+    margin: auto;
+    background-color: #f8f9fa;
+    white-space: pre-wrap;
+}
+
+.ui.card .content .header{
+    color: #7209b7;
+    font-family: 'Kaushan Script', cursive;
+}
